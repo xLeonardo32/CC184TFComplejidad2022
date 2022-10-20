@@ -11,4 +11,4 @@ class AgenciaViajes:
         self.agency = agency
         self.date = date
     def __str__(self):
-        return "%s D; %s P: "
+        "%s Type of Flight: %s Price: %f time: %f distance: %s date: %d travelCode: %d userCode: %s from: %s to: %f"  % (self.agency, self.flightType, self.price, self.time, self.distance, self.date, self.travelCode, self.userCode, self.fromOrigen, self.toDestino)
